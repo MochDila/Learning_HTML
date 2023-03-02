@@ -1,0 +1,61 @@
+* {
+    color: unset;
+}
+
+body {
+    font-family: "Roboto Light", Verdana, sans-serif;
+    background-color: thistle;
+}
+
+h1, h2 {
+    color: crimson;
+}
+
+p {
+    color: aquamarine;
+}
+
+p#introduction {
+    color: darkblue;
+}
+
+#top {
+    color: chartreuse;
+}
+
+.note {
+    color: violet;
+}
+
+li>a {
+    color: chocolate;
+}
+
+h4 {
+    color: coral;
+}
+
+p.note a {
+    color: crimson;
+}
+
+p a {
+    color: darkmagenta;
+}
+
+#inheritance {
+    font-family: Bahnschrift, Verdana, sans-serif;
+    color: azure;
+    padding: 10px;
+    border: 1px solid #665544;
+    background-color: #efefef;
+    padding: inherit;
+}
+
+h1#h_inheritance {
+    color: salmon;
+}
+
+div#inheritance p {
+    color: black;
+}

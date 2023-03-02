@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 9: Video & Audio</title>
+</head>
+<body>
+  <!-- Adding Video -->
+  <video src="Video/puppy.mp4"
+         poster="Images/puppy.jpg"
+         width="400"
+         height="300"
+         preload="auto"
+         controls
+         loop>
+    <p>A video of a puppy in the snow</p>
+  </video>
+  <hr/>
+
+  <!-- Multiple Video Source -->
+  <div id="MultipleVideoSource">
+    <p>Multiple Video Source</p>
+    <video poster="Images/puppy.jpg"
+           width="400"
+           height="320"
+           preload="auto"
+           controls
+           loop>
+      <source src="video/puppy.mp4"
+              type='Video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+      <source src="Video/puppy.webm"
+              type='Video/webm; codecs="vp8, vorbis"'/>
+      <p>A video of puppy playing in the snow</p>
+    </video>
+  </div>
+  <hr/>
+
+  <!-- Adding Audio -->
+  <audio src="Audio/test-audio.ogg"
+         controls>
+    <p>This is browser does not support our audio format.</p>
+  </audio>
+  <hr/>
+
+  <!-- Multiple Audio Sources -->
+  <audio controls>
+    <source src="Audio/test-audio.ogg">
+    <source src="Audio/test-audio.mp3">
+    <p>This is browser does not support our audio format.</p>
+  </audio>
+  <hr/>
+</body>
+</html>

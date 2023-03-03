@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('fonts/chunkfive.eot');
+    src: url('fonts/chunkfive.eot?#iefix')
+    format('embedded-opentype'),
+    url('fonts/chunkfive.woff') format('woff'),
+    url('fonts/chunkfive.ttf')
+    format('truetype'),
+    url('fonts/chunkfive.svg#ChunkFiveRegular')
+    format('svg');
+}
+body {
+    font-family: "open_sansregular", matter, monospace;
+    font-size: 16px;
+}
+h1 {
+    font-family: "Cal Sans", monospace;
+    font-size: 200%;
+    color: whitesmoke ;
+    -webkit-text-stroke: 1px black;
+}
+.credits {
+    font-family: "Cal Sans", "Courier New", monospace;
+    font-size: 1em;
+}
+p a {
+    font-family: "Cal Sans";
+    color: darkcyan;
+}
+

@@ -1,0 +1,114 @@
+/*BOXE DIMENSIONS*/
+div {
+  width: 400px;
+  height: 400px;
+  background-color: deepskyblue;
+}
+p.box {
+  height: 75%;
+  width: 55%;
+  background-color: darkcyan;
+}
+
+/*LIMITING WIDTH*/
+td.description {
+  min-width: 350px;
+  max-width: 550px;
+  text-align: left;
+  padding: 5px;
+  margin: 1px;
+}
+
+/*LIMITING HEIGHT*/
+h2. p {
+  width: 400px;
+  font-size: 90%;
+  line-height: 1.2em;
+}
+h2 {
+  color: #0088dd;
+  border-bottom: 1px solid #0088dd;
+}
+p {
+  min-height: 10px;
+  max-height: 30px;
+}
+
+/*OVERFLOWING CONTENT*/
+p.one {
+  overflow: hidden;
+}
+p.two {
+  overflow: scroll;
+}
+
+/*BORDER WIDTH, STYLE, COLOR, MARGIN, PADDING*/
+p.border_one {
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+}
+p.border_two {
+  border-width: thick;
+  border-style: dashed;
+  border-color: darkcyan;
+  padding: 10px;
+  width: 500px;
+  margin-left: 60px;
+}
+p.border_three {
+  border-width: 1px 2px 3px 4px;
+  border-style: solid;
+  border-color: deepskyblue black salmon fuchsia;
+  padding: 10px;
+}
+
+/*CENTERING CONTENT*/
+p.center_one {
+  max-width: 500px;
+  border-width: medium;
+  width: max-content;
+  border-style: solid;
+  border-color: darkviolet;
+  text-align: center;
+  padding: 20px;
+  margin: 10px auto 10px auto;
+}
+
+/*CHANGE INLINE/BLOCK*/
+li {
+  display: inline;
+  margin-right: 20px;
+}
+li.coming-soon {
+  display: none;
+}
+li.visible {
+  visibility: hidden;
+}
+
+/*BORDER IMAGE*/
+p.image-one {
+  border: 11px solid darkviolet;
+  -moz-border-image: url("../Images/dots.gif") 11 11 11 11 stretch;
+  -webkit-border-image: url("../Images/dots.gif") 11 11 11 11 stretch;
+  border-image: url("../Images/dots.gif") 11 11 11 11 stretch;
+  -moz-box-shadow: -5px -5px #777777;
+  -webkit-box-shadow: -5px -5px #777777;
+  box-shadow: -5px -5px #777777;
+  padding: 10px;
+}
+p.image-two {
+  border: 11px solid darkviolet;
+  -moz-border-image: url("../Images/dots.gif") 11 11 11 11 round;
+  -webkit-border-image: url("../Images/dots.gif") 11 11 11 11 round;
+  border-image: url("../Images/dots.gif") 11 11 11 11 round;
+  padding: 10px;
+}
+
+/*BORDER CORNER*/
+p.border-corner {
+  border: 2px solid darkviolet;
+  padding: 10px;
+  border-radius: 10px;
+}
